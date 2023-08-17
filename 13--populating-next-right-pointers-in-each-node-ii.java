@@ -43,7 +43,7 @@ class Solution {
                 curr = curr.next;
             }
             levelStart = dummy.next;
-            dummy.next = null;F
+            dummy.next = null;
         }
         return root;
     }
